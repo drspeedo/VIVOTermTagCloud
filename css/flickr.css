@@ -1,0 +1,31 @@
+body {
+	font-family: Arial, Helvetica, Sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #0063DC;
+}
+
+a:visited {
+	color: #1057ae;
+}
+a:hover {
+	color: #FFFFFF;
+	background: #0063DC;
+}
+
+a:active { 
+	color: #FFFFFF;
+	background: #0259C4;
+}
+
+.tagcloud {
+	text-align: justify;
+	padding: 15px;
+	border: 1px solid #eeeeee;
+	background-color: #f5f5f5;
+}
