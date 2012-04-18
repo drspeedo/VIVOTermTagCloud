@@ -4,4 +4,22 @@
   <artifactId>VIVOTermTagCloud</artifactId>
   <version>0.0.1</version>
   <packaging>war</packaging>
+  <dependencies>
+  <dependency>
+  	<groupId>org.slf4j</groupId>
+  	<artifactId>log4j-over-slf4j</artifactId>
+  	<version>1.6.4</version>
+  </dependency>
+  <dependency>
+  	<groupId>org.slf4j</groupId>
+  	<artifactId>slf4j-log4j12</artifactId>
+  	<version>1.6.4</version>
+  </dependency>
+  </dependencies>
+  <scm>
+  	<url>https://github.com/drspeedo/VIVOTermTagCloud</url>
+  	<connection>git@github.com:drspeedo/VIVOTermTagCloud.git</connection>
+  </scm>
+  <name>VIVO Term Tag Cloud Concept</name>
+  <description>A proof of concept using OpenCloud to generate a Tag Cloud of Data and then Generate that Tag Cloud from Semantic Data</description>
 </project>

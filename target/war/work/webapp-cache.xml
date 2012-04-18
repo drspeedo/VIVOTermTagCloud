@@ -1,0 +1,47 @@
+<webapp-structure>
+  <registeredFiles>
+    <entry>
+      <string>currentBuild</string>
+      <path-set>
+        <pathsSet class="linked-hash-set">
+          <string>WEB-INF/lib/opencloud.jar</string>
+          <string>WEB-INF/web.xml</string>
+          <string>index.jsp</string>
+          <string>css/flickr.css</string>
+          <string>css/dailymotion.css</string>
+          <string>css/opencloud.css</string>
+          <string>WEB-INF/lib/log4j-over-slf4j-1.6.4.jar</string>
+          <string>WEB-INF/lib/slf4j-api-1.6.4.jar</string>
+          <string>WEB-INF/lib/slf4j-log4j12-1.6.4.jar</string>
+          <string>WEB-INF/lib/log4j-1.2.16.jar</string>
+        </pathsSet>
+      </path-set>
+    </entry>
+  </registeredFiles>
+  <dependenciesInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>log4j-over-slf4j</artifactId>
+        <version>1.6.4</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <optional>false</optional>
+      </dependency>
+      <targetFileName>log4j-over-slf4j-1.6.4.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-log4j12</artifactId>
+        <version>1.6.4</version>
+        <type>jar</type>
+        <scope>compile</scope>
+        <exclusions/>
+        <optional>false</optional>
+      </dependency>
+      <targetFileName>slf4j-log4j12-1.6.4.jar</targetFileName>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+  </dependenciesInfo>
+</webapp-structure>
